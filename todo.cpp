@@ -22,7 +22,7 @@ int TodoList::string_length(const char* str) const {
     // TODO: return the number of characters before '\0'
     int len=0;
     while(str[len]!='\0'){
-        ++len;
+        len++;
     }
     
     return len;
